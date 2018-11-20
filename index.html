@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nick's Quiz</title>
+
+    <link href ="style.css" rel="stylesheet">
+    <script src="app.js"></script>
+</head>
+
+<body>
+        
+<h1>Not so Trivial Trivia</h1>
+
+<form id="trivia" name="trivia">
+<p>When was the war of 1812?</p>
+<input type="radio" id="multipleChoice" name ="question1" value="1298"> 1298 <br>
+<input type="radio" id="multipleChoice" name ="question1" value="1812"> 1812 <br>
+<input type="radio" id="multipleChoice" name ="question1" value="Yellow"> Yellow <br>
+<input type="radio" id="multipleChoice" name ="question1" value="false"> False <br>
+
+<p>Which of these is not a liquid?</p>
+<input type="radio" id="multipleChoice" name ="question2" value="Water"> Water <br>
+<input type="radio" id="multipleChoice" name ="question2" value="More Water"> More Water <br>
+<input type="radio" id="multipleChoice" name ="question2" value="Most Water"> Most Water <br>
+<input type="radio" id="multipleChoice" name ="question2" value="Not Water"> Not Water<br>
+
+<p>Do socks go over shoes?</p>
+<input type="radio" id="multipleChoice" name ="question3" value="Yes"> Yes <br>
+<input type="radio" id="multipleChoice" name ="question3" value="No"> No <br>
+<input type="radio" id="multipleChoice" name ="question3" value="Green"> Green <br>
+<input type="radio" id="multipleChoice" name ="question3" value="The Rolling Stones"> The Rolling Stones<br>
+
+<p>How many Books are in an empty library?</p>
+<input type="radio" id="multipleChoice" name ="question4" value="0"> 0 <br>
+<input type="radio" id="multipleChoice" name ="question4" value="1"> 1 <br>
+<input type="radio" id="multipleChoice" name ="question4" value="2"> 2 <br>
+<input type="radio" id="multipleChoice" name ="question4" value="3"> 3 <br>
+<br>
+<input id="button" type ="button" value="Fin" onclick="check();">
+
+<div style ="font-weight: bold" id="quiz-time-left">Quiz Time Left</div>
+
+</form>
+
+<div id="submitted">
+    <p id=message></p>
+    <p id="numberCorrect"></p>
+</div>
+
+
+
+
+
+</body>
+
+</html>
